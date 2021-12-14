@@ -1,0 +1,20 @@
+{
+    // VScodeのデバッグ機能の構成を記述するファイル
+    "version": "0.2.0",
+    "configurations":[
+        {
+            // デバッグ構成に表示される名前、任意に指定可能
+            "name": "Python Basic",
+            //　デバッガーの種類を指定
+            "type": "python",
+            // or attach
+            "request": "launch",
+            // 起動するプログラムのパスを指定
+            "program": "${file}",
+            // プログラムを実行するコンソールyを指定
+            // internlConsolはVSCodeのターミナル
+            "console": "internalConsole"
+        }
+    ]
+
+}

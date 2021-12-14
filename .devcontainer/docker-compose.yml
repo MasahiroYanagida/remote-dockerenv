@@ -1,0 +1,13 @@
+version: '3.2'
+
+services:
+  python:
+    image: remotedockerenv/python:1.0
+    build: ./python
+    container_name: 'romoteenv_python'
+    stdin_open: true
+    tty: true
+    working_dir: '/tmp/work'
+    volumes:
+      - ../python:/tmp/work
+      
