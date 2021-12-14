@@ -5,7 +5,7 @@
         {
             // デバッグ構成に表示される名前、任意に指定可能
             "name": "Python Basic",
-            //　デバッガーの種類を指定
+            // デバッガーの種類を指定
             "type": "python",
             // or attach
             "request": "launch",

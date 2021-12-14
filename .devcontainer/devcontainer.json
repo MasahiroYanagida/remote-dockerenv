@@ -1,4 +1,6 @@
 {
+    // リモート開発プロジェクトの構成を指定
+
     // VSCodeがコンテナに接続された際のタイトルとして表示（任意に指定可能）
     "name": "Python Basic Project",
     // 起動するDocker Composeファイルを指定します
@@ -6,7 +8,7 @@
     "dockerComposeFile": "docker-compose.yml",
     // VSCodeで接続するサービス名を指定する
     "service": "python",
-    "workspaceFolder": "/tmp/work",
+    "workspaceFolder": "/home/user1/dev",
     // リモート開発で使用する拡張機能はローカル環境とは別にインストールする必要がある。
     // 今回はPythonの拡張機能をインストール
     "extensions": [

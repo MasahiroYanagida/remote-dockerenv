@@ -4,10 +4,10 @@ services:
   python:
     image: remotedockerenv/python:1.0
     build: ./python
-    container_name: 'romoteenv_python'
+    container_name: 'romoteenv_python2'
     stdin_open: true
     tty: true
-    working_dir: '/tmp/work'
+    #working_dir: '/tmp/work'
     volumes:
-      - ../python:/tmp/work
+      - ../python:/home/user1/dev
       
